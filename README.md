@@ -32,11 +32,11 @@
     Logo de cara veio na minha cabeça a seguinte resposta
 ```python
   def f(x):
-       if x == 2:
-		    return 2
+       if x == 1:
+		    return 1
           
-       if x <= 1:
-		     return 1
+       if x < 1:
+		     return 0
 	   return step(x-1) + step(x-2)
 ```
    Essa solução funciona. Porém para valores mto grandes fica extremamente lento.
