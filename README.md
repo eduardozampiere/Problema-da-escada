@@ -51,7 +51,7 @@
    Então pensei na terceira soluçao que esta no step.py
    
    Na primeira chamada da função eu inicializaria um array contendo os valores de fibonacci do 1 ao n (numero inserido pelo usuario)
-   na segunda chamada se o novo n ja tivesse sido criado, seria apenas retornas o valor de array[n].
+   na segunda chamada se o novo n ja tivesse sido criado, seria apenas retornado o valor de array[n].
    Se nao tivesse sido criado, eu acrescento no primeiro array os valores até chegar no que o usuario quer.
    
    Dessa forma alimento o meu array de acordo com o uso do usuario.
